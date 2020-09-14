@@ -1,0 +1,35 @@
+ /*root cria variáveis para referenciar elementos*/
+ :root{
+    --title-color: #322153;
+    --primary-color: #34cb79;
+ }
+
+ *{
+    margin: 0;
+    padding: 0;
+    /*Otamanho da caixa é até a bordaaaa, tamanho da ciaxa*/
+    box-sizing: border-box;
+
+ }
+ 
+ /*USANDO O 1 SELETOR NO CSS*/
+ html{
+    /*Mudando a fonte do meu html*/
+    font-family: 'Roboto', sans-serif;
+ }
+
+ body{
+    background: #f0fff5;
+    -webkit-font-smoothing: antialiased;
+ }
+
+ a{ 
+   text-decoration: none;
+ }
+
+ h1, h2, h3, h4 , h5{
+    font-family: "Ubuntu" , sans-serif;
+    color: var(--title-color);
+ }
+
+ 
